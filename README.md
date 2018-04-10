@@ -6,7 +6,7 @@
 行為型模式(Behavioral Patterns)
 ```
 
-#一、創建型模式 (Creational Patterns)
+# 一、創建型模式 (Creational Patterns)
 ```
 1.簡單工廠模式 (Simple Factory)
 2.工廠模式 (Factory)
@@ -16,7 +16,7 @@
 6.建造者模式 (Builder)
 ```
 
-#二、結構型模式 (Structural Patterns)
+# 二、結構型模式 (Structural Patterns)
 ```
 1.表象(外觀)模式 (Facade)
 2.合成模式 (Composite)
@@ -27,7 +27,7 @@
 7.橋樑模式 (Bridge)
 ```
 
-#三、行為型模式(Behavioral Patterns)
+# 三、行為型模式(Behavioral Patterns)
 ```
 1.命令模式(Command)
 2.觀察者模式(Observer)
