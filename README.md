@@ -1,5 +1,6 @@
 # Design-Pattern
-設計模式分為24個設計樣式 有三大類 
+設計模式分為23種設計樣式 有三大類 
+
 ```
 創建型模式(Creational Patterns)
 結構型模式(Structural Patterns)
@@ -8,12 +9,12 @@
 
 # 一、創建型模式 (Creational Patterns)
 ```
-1.簡單工廠模式 (Simple Factory)
-2.工廠模式 (Factory)
-3.抽象工廠模式 (Abstract Factory)
-4.單例模式 (Singleton)
-5.原型模式 (Prototype)
-6.建造者模式 (Builder)
+簡單工廠模式 (Simple Factory)
+1.工廠模式 (Factory)
+2.抽象工廠模式 (Abstract Factory)
+3.單例模式 (Singleton)
+4.原型模式 (Prototype)
+5.建造者模式 (Builder)
 ```
 
 # 二、結構型模式 (Structural Patterns)
