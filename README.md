@@ -12,7 +12,7 @@
 簡單工廠模式 (Simple Factory)
 1.工廠模式 (Factory)
 2.抽象工廠模式 (Abstract Factory)
-3.單例模式 (Singleton)
+[3.單例模式 (Singleton)](https://github.com/s5016335/Design-Pattern/blob/master/%E5%96%AE%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
 4.原型模式 (Prototype)
 5.建造者模式 (Builder)
 ```
