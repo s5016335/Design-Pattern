@@ -1,0 +1,75 @@
+1.先創造一個抽象類
+
+```
+public abstract class Toy {
+	public abstract void make() ;
+}
+```
+
+2 . 創造兩個實體類
+
+```
+public class Cartoy extends Toy {
+
+	@Override
+	public void make() {
+		System.out.println("製造玩具車");
+
+	}
+}
+```
+
+```
+public class Toydog extends Toy {
+
+	@Override
+	public void make() {
+		System.out.println("製造玩具狗");
+
+	}
+
+}
+```
+
+3.創造一個簡單工廠利用接收到的值來決定製造哪一個類別
+
+```
+public class ToyFactory {
+	public static  Toy creatToy(String s) {
+		Toy toy=null;
+		switch (s) {
+		case "car":
+			toy=new Cartoy();
+			break;
+
+		case "dog":
+			toy=new Toydog();
+			break;
+
+		default:
+
+			break;
+		}
+		return toy;
+
+	}
+}
+```
+
+4.
+
+```
+public class Main {
+
+	public static void main(String[] args) {
+
+		Toy car,dog ;
+		car = ToyFactory.creatToy("car");
+		dog=ToyFactory.creatToy("dog");
+		car.make();
+		dog.make();
+
+	}
+
+}
+```
